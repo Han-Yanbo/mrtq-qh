@@ -91,7 +91,8 @@ def send_weather(access_token, weather):
     body = {
         "touser": openId.strip(),
         "template_id": weather_template_id.strip(),
-        "url": "https://weixin.qq.com",
+        #点击页面跳转
+        "url": ""https://sq2.weather.com.cn/mweather15d/101020900.shtml",
         "data": {
             "date": {
                 "value": today_str
